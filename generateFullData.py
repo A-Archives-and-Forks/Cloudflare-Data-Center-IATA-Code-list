@@ -34,7 +34,11 @@ def load_cloudflare_locations():
 
     try:
         print("Fetching Cloudflare locations...")
-        response = requests.get(CLOUDFLARE_LOCATIONS_URL, timeout=15)
+        response = requests.get(
+            CLOUDFLARE_LOCATIONS_URL,
+            headers={"Referer": "https://speed.cloudflare.com/"},
+            timeout=15,
+        )
         response.raise_for_status()
         data = response.json()
 
