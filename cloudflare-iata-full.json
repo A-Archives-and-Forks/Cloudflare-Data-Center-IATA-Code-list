@@ -274,8 +274,8 @@
   "BHY": {
     "place": "Beihai, China",
     "place_zh": "中国北海",
-    "lat": 21.5394,
-    "lng": 109.293999,
+    "lat": 21.538659,
+    "lng": 109.293683,
     "cca2": "CN",
     "region": "Asia Pacific"
   },
@@ -1712,8 +1712,8 @@
     "region": "North America"
   },
   "MLA": {
-    "place": "Santa Venera, Malta",
-    "place_zh": "马耳他圣韦内拉",
+    "place": "Valletta, Malta",
+    "place_zh": "瓦莱塔, 马耳他",
     "lat": 35.857498,
     "lng": 14.4775,
     "cca2": "MT",
