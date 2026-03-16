@@ -33,7 +33,7 @@
   },
   "ACX": {
     "place": "Xingyi, China",
-    "place_zh": "Xingyi, China",
+    "place_zh": "中国兴义",
     "lat": 25.083423,
     "lng": 104.960804,
     "cca2": "CN",
@@ -1721,7 +1721,7 @@
   },
   "MLA": {
     "place": "Valletta, Malta",
-    "place_zh": "瓦莱塔, 马耳他",
+    "place_zh": "马耳他瓦莱塔",
     "lat": 35.857498,
     "lng": 14.4775,
     "cca2": "MT",
@@ -2638,6 +2638,14 @@
     "lng": 118.408997,
     "cca2": "CN",
     "region": "Asia Pacific"
+  },
+  "WLG": {
+    "place": "Wellington, New Zealand",
+    "place_zh": "新西兰惠灵顿",
+    "lat": -41.326839,
+    "lng": 174.806862,
+    "cca2": "NZ",
+    "region": null
   },
   "WRO": {
     "place": "Wroclaw, Poland",
