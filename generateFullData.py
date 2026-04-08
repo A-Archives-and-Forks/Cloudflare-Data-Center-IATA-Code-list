@@ -19,6 +19,13 @@ REGION_MAP = {
     "UZ": "Asia Pacific",
     "BR": "South America",
     "BD": "Asia Pacific",
+    "MD": "Europe",
+    "NZ": "Oceania",
+}
+
+IATA_SPECIAL_CASES = {
+    "JXG": "JNH",  # JNH (Jiaxing Nanhu Airport) was mistakenly recorded as JXG (Jiaxing Airport)
+    "KIV": "RMO",  # On 18 January 2024, the IATA airport code KIV, derived from Kishinev (the Russian and former English name of the city), was changed to RMO (Republica Moldova, "Republic of Moldova" in Romanian).
 }
 
 # Global caches
@@ -85,6 +92,9 @@ def load_ourairports_locations():
                     }
                 except ValueError:
                     continue
+        for special_iata, mapped_iata in IATA_SPECIAL_CASES.items():
+            if mapped_iata in _OURAIRPORTS_CACHE:
+                _OURAIRPORTS_CACHE[special_iata] = _OURAIRPORTS_CACHE[mapped_iata]
         print(f"Loaded {len(_OURAIRPORTS_CACHE)} locations from OurAirports.")
     except Exception as e:
         print(f"Error loading OurAirports data: {e}")
@@ -99,9 +109,7 @@ def get_location_details(iata_code):
     if iata_code == "LOCAL":
         return None, None, None, None
 
-    # Handle special case mapping
-    lookup_code = "JNH" if iata_code == "JXG" else iata_code
-    lookup_code = lookup_code.upper()
+    lookup_code = iata_code.upper()
 
     # 1. Try Cloudflare
     cf_locations = load_cloudflare_locations()
