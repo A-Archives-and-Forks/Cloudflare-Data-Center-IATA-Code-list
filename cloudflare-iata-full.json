@@ -1394,10 +1394,10 @@
   "KIV": {
     "place": "Chișinău, Moldova",
     "place_zh": "摩尔多瓦基希讷乌",
-    "lat": null,
-    "lng": null,
-    "cca2": null,
-    "region": null
+    "lat": 46.92774,
+    "lng": 28.931704,
+    "cca2": "MD",
+    "region": "Europe"
   },
   "KIX": {
     "place": "Osaka, Japan",
@@ -1601,7 +1601,7 @@
   },
   "LYA": {
     "place": "Luoyang, China",
-    "place_zh": "Luoyang, China",
+    "place_zh": "中国洛阳",
     "lat": 34.7411,
     "lng": 112.388,
     "cca2": "CN",
@@ -2653,7 +2653,7 @@
     "lat": -41.326839,
     "lng": 174.806862,
     "cca2": "NZ",
-    "region": null
+    "region": "Oceania"
   },
   "WRO": {
     "place": "Wroclaw, Poland",
