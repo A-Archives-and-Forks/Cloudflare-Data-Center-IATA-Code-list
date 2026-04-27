@@ -2071,6 +2071,14 @@
     "cca2": "KH",
     "region": "Asia Pacific"
   },
+  "PNQ": {
+    "place": "Pune, India",
+    "place_zh": "印度浦那",
+    "lat": 18.5821,
+    "lng": 73.919701,
+    "cca2": "IN",
+    "region": "Asia Pacific"
+  },
   "POA": {
     "place": "Porto Alegre, Brazil",
     "place_zh": "巴西阿雷格里港",
