@@ -218,8 +218,8 @@
   "BBI": {
     "place": "Bhubaneswar, India",
     "place_zh": "印度布巴内斯瓦尔",
-    "lat": 20.251021,
-    "lng": 85.814747,
+    "lat": 20.2444,
+    "lng": 85.817802,
     "cca2": "IN",
     "region": "Asia Pacific"
   },
@@ -450,10 +450,10 @@
   "CCP": {
     "place": "Concepción, Chile",
     "place_zh": "智利康塞普西翁",
-    "lat": -36.772701,
-    "lng": -73.063103,
+    "lat": -36.77235,
+    "lng": -73.062828,
     "cca2": "CL",
-    "region": "South America"
+    "region": null
   },
   "CCU": {
     "place": "Kolkata, India",
@@ -1557,7 +1557,7 @@
     "lat": 46.223701,
     "lng": 14.4576,
     "cca2": "SI",
-    "region": null
+    "region": "Europe"
   },
   "LLK": {
     "place": "Astara, Azerbaijan",
@@ -2674,8 +2674,8 @@
   "WLG": {
     "place": "Wellington, New Zealand",
     "place_zh": "新西兰惠灵顿",
-    "lat": -41.326839,
-    "lng": 174.806862,
+    "lat": -41.327202,
+    "lng": 174.804993,
     "cca2": "NZ",
     "region": "Oceania"
   },
